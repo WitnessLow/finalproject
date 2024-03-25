@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find the Missing Phone</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="./src/output.css" rel="stylesheet">
+    <script defer src="script.js"></script>
+</head>
+
+<body>
+    <div class="wrapper1">
+        <br />
+        <div class="tab">
+            <button class="tablinks" onclick="openCity(event, 'first')" id="defaultOpen">Well firstly...</button>
+            <button class="tablinks" onclick="openCity(event, 'then')">Then he said...</button>
+            <button class="tablinks" onclick="openCity(event, 'finally')">End...</button>
+        </div>
+        <div id="first" class="tabcontent">
+            <h2> <br/>Congratulations!</h2>
+            <p> <br/> <br/>You've completed all of the tasks and brought the phone back to the right person! 
+            <br/> <br/> Bravo !</p>
+          </div>
+          
+          <div id="then" class="tabcontent">
+            <img src="assets/thomas.jpg" alt="France" />
+            <p> <br/>Hello! <br/>I am Thomas Pesquet. <br> thanks for all the effort. <br/> What do you say I bring you with me into the ISS next time ?</p> 
+          </div>
+          
+          <div id="finally" class="tabcontent">
+            <h2> <br/>The end</h2>
+            <p>  <br/>  <br/>You can either quit the game or back to the home page !</p>
+            <div class="flex justify-around items-end">
+                <button class="minigamesbtn mx-2" onclick="location.href='./home.html'">Back to home page</button>
+          </div>
+    </div>
+</body>
+</html>
+
+
+
+<body>
